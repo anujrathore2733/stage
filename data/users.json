@@ -1,0 +1,92 @@
+[
+    {
+        "username": "Alice",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Bob",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Charlie",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "David",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Eve",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Frank",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Grace",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Henry",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Isabel",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    },
+    {
+        "username": "Jack",
+        "preferences": {
+            "favoriteGenres": [],
+            "dislikedGenres": []
+        },
+        "watchHistory": [],
+        "myList": []
+    }
+]

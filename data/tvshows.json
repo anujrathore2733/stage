@@ -1,0 +1,249 @@
+[
+    {
+        "title": "Breaking Bad",
+        "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student to build a drug empire while dealing with ruthless drug dealers, dangerous criminals, and the DEA.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2008-01-20",
+                "director": "Vince Gilligan",
+                "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2008-01-27",
+                "director": "Vince Gilligan",
+                "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+            }
+        ]
+    },
+    {
+        "title": "Friends",
+        "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "1994-09-22",
+                "director": "James Burrows",
+                "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "1994-09-29",
+                "director": "James Burrows",
+                "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"]
+            }
+        ]
+    },
+    {
+        "title": "Stranger Things",
+        "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2016-07-15",
+                "director": "The Duffer Brothers",
+                "actors": [
+                    "Millie Bobby Brown",
+                    "Finn Wolfhard",
+                    "Winona Ryder"
+                ]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2016-07-15",
+                "director": "The Duffer Brothers",
+                "actors": [
+                    "Millie Bobby Brown",
+                    "Finn Wolfhard",
+                    "Winona Ryder"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Game of Thrones",
+        "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2011-04-17",
+                "director": "Tim Van Patten",
+                "actors": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2011-04-24",
+                "director": "Tim Van Patten",
+                "actors": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"]
+            }
+        ]
+    },
+    {
+        "title": "The Office",
+        "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2005-03-24",
+                "director": "Ken Kwapis",
+                "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2005-03-29",
+                "director": "Ken Kwapis",
+                "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski"]
+            }
+        ]
+    },
+    {
+        "title": "Breaking Bad",
+        "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student to build a drug empire while dealing with ruthless drug dealers, dangerous criminals, and the DEA.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2008-01-20",
+                "director": "Vince Gilligan",
+                "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2008-01-27",
+                "director": "Vince Gilligan",
+                "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+            }
+        ]
+    },
+    {
+        "title": "Stranger Things",
+        "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2016-07-15",
+                "director": "The Duffer Brothers",
+                "actors": [
+                    "Millie Bobby Brown",
+                    "Finn Wolfhard",
+                    "Winona Ryder"
+                ]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2016-07-15",
+                "director": "The Duffer Brothers",
+                "actors": [
+                    "Millie Bobby Brown",
+                    "Finn Wolfhard",
+                    "Winona Ryder"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Game of Thrones",
+        "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2011-04-17",
+                "director": "Tim Van Patten",
+                "actors": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2011-04-24",
+                "director": "Tim Van Patten",
+                "actors": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"]
+            }
+        ]
+    },
+    {
+        "title": "The Office",
+        "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2005-03-24",
+                "director": "Ken Kwapis",
+                "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2005-03-29",
+                "director": "Ken Kwapis",
+                "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski"]
+            }
+        ]
+    },
+    {
+        "title": "Breaking Bad",
+        "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student to build a drug empire while dealing with ruthless drug dealers, dangerous criminals, and the DEA.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "2008-01-20",
+                "director": "Vince Gilligan",
+                "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "2008-01-27",
+                "director": "Vince Gilligan",
+                "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+            }
+        ]
+    },
+    {
+        "title": "Friends",
+        "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.",
+        "genres": [],
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "releaseDate": "1994-09-22",
+                "director": "James Burrows",
+                "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"]
+            },
+            {
+                "episodeNumber": 2,
+                "seasonNumber": 1,
+                "releaseDate": "1994-09-29",
+                "director": "James Burrows",
+                "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"]
+            }
+        ]
+    }
+]
