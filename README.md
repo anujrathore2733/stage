@@ -108,7 +108,8 @@ first it checks in redis that the content is available or not if the content is 
 so every time that content is read from redis its TTL is updated to 15 days this way frequent used content will be always present in redis and least used content will be removed from redis after 15 days.
 
 
-
+## Deployment
+Code is deployed on aws EC2 instance using nginx web server and app is running using pm2 on public ip -> `http://15.206.164.218/`
 
 
 
