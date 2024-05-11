@@ -42,6 +42,12 @@ npm run loaddata
 ```
 this will insert some dummy data into mongodb's user collection, movies collection and tvshows collection.
 
+For testing
+
+```bash
+  npm run test
+```
+
 Start the server without build
 
 ```bash
@@ -104,8 +110,9 @@ to improve the performance of get List api `GET /api/user/${userId}/list` cachin
 #### caching strategy
 when the user hits the get list api `GET /api/user/${userId}/list`.
 
-first it checks in redis that the content is available or not if the content is available in redis the it fetch the data from redis and update the TTL of that stored content in redis to 15 days , if the data is not found in redis then it fetch the data from mongodb and add it to redis with the TTL of 15 days.
-so every time that content is read from redis its TTL is updated to 15 days this way frequent used content will be always present in redis and least used content will be removed from redis after 15 days.
+First, it checks Redis to determine whether the content is available. If the content is found in Redis, it retrieves the data from Redis and updates the TTL (Time To Live) of the stored content to 15 days. If the data is not found in Redis, it retrieves the data from MongoDB and adds it to Redis with a TTL of 15 days.
+
+Therefore, each time the content is read from Redis, its TTL is updated to 15 days. This approach ensures that frequently accessed content remains in Redis, while less frequently accessed content is automatically removed from Redis after 15 days.
 
 
 ## Deployment
