@@ -32,4 +32,4 @@ jobs:
         echo "REDIS_URL=${{ secrets.REDIS_URL }}" >> .env
 
     - name: Start application
-      run: npm start
+      run: pm2 restart api
