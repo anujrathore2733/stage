@@ -71,10 +71,10 @@ Start the server with build
 
 **NOTE**- All the ids used in api are mongodb's ObjectId once test data is inserted in mongodb then use those ids in the api
 
-#### To get the user's mylist
+#### To get the user's mylist (default limit=5)
 
 ```http
-  GET /api/user/${userId}/list
+  GET /api/user/${userId}/list?page=1&limit=3
 ```
 
 | Parameter | Type     | Description                |
