@@ -1,8 +1,7 @@
 import * as request from 'supertest';
 import App from '../app';
 import UserRoute from '../routes/user.route';
-import * as mongoose from 'mongoose';
-import { createClient } from 'redis';
+
 
 describe('User Routes', () => {
     const userRoute = new UserRoute();
@@ -12,7 +11,7 @@ describe('User Routes', () => {
 
         // get user list with correct user id
         it('should respond with status code 200', async () => {
-            const userId = '663d541983c59f08217db3e0';
+            const userId = '663f9dad16bf4f3c9b3c9867';
             const response = await request(app.getServer()).get(
                 `/api/user/${userId}/list`
             );
@@ -33,8 +32,8 @@ describe('User Routes', () => {
 
         // addding a content which is not present with valid user id
         it('should respond with status code 200', async () => {
-            const userId = '663d541983c59f08217db3e0'; 
-            const contentId = '663d549957301509a0418d88';
+            const userId = '663f9dad16bf4f3c9b3c9867'; 
+            const contentId = '663f9dad16bf4f3c9b3c9873';
             const response = await request(app.getServer()).put(
                 `/api/user/${userId}/add/${contentId}`
             );
@@ -45,7 +44,7 @@ describe('User Routes', () => {
         // when user is not present
         it('should respond with status code 404', async () => {
             const userId = '663d541983c59f08317db3e0'; 
-            const contentId = '663d549957301509a0418d88';
+            const contentId = '663f9dad16bf4f3c9b3c9873';
             const response = await request(app.getServer()).put(
                 `/api/user/${userId}/add/${contentId}`
             );
@@ -54,8 +53,8 @@ describe('User Routes', () => {
 
         // adding content which is already present in users myList
         it('should respond with status code 409', async () => {
-            const userId = '663d541983c59f08217db3e0'; 
-            const contentId = '663d541983c59f08217db3ec'; // adding content which is already present
+            const userId = '663f9dad16bf4f3c9b3c9867'; 
+            const contentId = '663f9dad16bf4f3c9b3c9873'; // adding content which is already present
             const response = await request(app.getServer()).put(
                 `/api/user/${userId}/add/${contentId}`
             );
@@ -68,8 +67,8 @@ describe('User Routes', () => {
 
         // deleting a content which is already present in user list with correct user id
         it('should respond with status code 200', async () => {
-            const userId = '663d541983c59f08217db3e0';
-            const contentId = '663d549957301509a0418d88';
+            const userId = '663f9dad16bf4f3c9b3c9867';
+            const contentId = '663f9dad16bf4f3c9b3c9873';
             const response = await request(app.getServer()).delete(
                 `/api/user/${userId}/remove/${contentId}`
             );

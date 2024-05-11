@@ -8,7 +8,7 @@
         "start": "node build/server.js",
         "dev": "ts-node src/server.ts",
         "build": "rimraf ./build && tsc",
-        "test": "jest",
+        "test": "jest --forceExit",
         "loaddata": "ts-node src/loaddata.ts"
     },
     "dependencies": {
