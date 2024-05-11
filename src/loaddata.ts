@@ -1,5 +1,9 @@
 import mongoose from 'mongoose';
 import * as fs from 'fs';
+import * as dotenv from 'dotenv'
+
+
+dotenv.config()
 
 const UserSchema = new mongoose.Schema({
     username: { type: String, required: true, trim: true },
@@ -98,7 +102,7 @@ const movieData = JSON.parse(fs.readFileSync('./data/movies.json', 'utf-8'));
 const tvShowData = JSON.parse(fs.readFileSync('./data/tvshows.json', 'utf-8'));
 
 mongoose
-    .connect('mongodb://localhost:27017/stage')
+    .connect(process.env.MONGO_URL)
     .then(async() => {
         console.log('Connected to MongoDB');
 

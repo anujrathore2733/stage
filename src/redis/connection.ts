@@ -18,7 +18,7 @@ class RedisConnection {
 
     public async connect(){
         if (!this.client) {
-            this.client = createClient()
+            this.client = createClient({url:process.env.REDIS_URL})
             this.client.on('error', (err: any) => console.log('Redis Client Error', err));
             this.client.on('connect', () => {
                 console.log('REDIS CONNECTED');
