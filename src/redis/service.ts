@@ -15,7 +15,6 @@ class RedisService {
         const data: Array<Object> = [];
         const missingKeys: string[] = [];
         try {
-            console.log(keys, 'keys');
             let fetchedData = await this.redisClient.mGet(keys);
             const multi = this.redisClient.multi();
             for (let i = 0; i < fetchedData.length; i++) {
@@ -39,7 +38,6 @@ class RedisService {
 
     public async addAndUpdateTTL(data: any[]){
         try {
-            console.log(data.map((elm) => [elm._id.toString(), JSON.stringify(elm)]),"new data")
             await this.redisClient.mSet(data.map((elm) => [elm._id.toString(), JSON.stringify(elm)]));
             const multi = this.redisClient.multi();
             data.forEach((elm)=>{

@@ -44,7 +44,6 @@ class App {
 
     private initializeRoutes(routes: Route[]) {
         routes.forEach((route) => {
-            console.log(route.path,"Path")
             if (route.path === '/') {
                 this.app.use('/', route.router); // for checking health of system
             }

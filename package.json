@@ -8,8 +8,8 @@
         "start": "node build/server.js",
         "dev": "ts-node src/server.ts",
         "build": "rimraf ./build && tsc",
-        "test": "jest --forceExit --detectOpenHandles",
-        "loaddata":"ts-node src/loaddata.ts"
+        "test": "jest",
+        "loaddata": "ts-node src/loaddata.ts"
     },
     "dependencies": {
         "cors": "^2.8.5",
@@ -21,6 +21,7 @@
         "mongoose": "^8.3.4",
         "redis": "^4.6.13",
         "supertest": "^7.0.0",
+        "ts-jest": "^29.1.2",
         "ts-node": "^10.9.2"
     },
     "devDependencies": {

@@ -15,6 +15,6 @@
         "resolveJsonModule": true,
         "types": ["node","jest"]
     },
-    "include": ["src/**/*.ts", "loaddata.js"],
+    "include": ["src/**/*.ts", "loaddata.js","**/*.spec.ts"],
     "exclude": ["node_modules"]
 }

@@ -38,7 +38,6 @@ class UserService {
         const endIndex = page * limit;
         const contentIds = userList.slice(startIndex, endIndex);
         let fetchedData = await this.redisService.readAndUpdateTTL(contentIds)
-        console.log(fetchedData,"data")
         const missingKeys = fetchedData.missingKeys
         let newFetchedData:any = []
         if(missingKeys.length > 0){
