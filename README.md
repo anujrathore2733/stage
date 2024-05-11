@@ -17,6 +17,8 @@ To run this project, you will need to add the following environment variables to
 
 ## Run Locally
 
+#### use latest node version >= 18.x
+
 Clone the project
 
 ```bash
