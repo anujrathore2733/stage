@@ -14,8 +14,7 @@ class UserDAO extends BaseDAO<User> {
     ): Promise<User> {
         const updatedDoc = await this.docs.findByIdAndUpdate(userId, {
             $push: { myList: contentId }
-        });
-        updatedDoc.myList.push(contentId)
+        },{ runValidators: true, new: true });
         return updatedDoc;
     }
 
@@ -25,9 +24,7 @@ class UserDAO extends BaseDAO<User> {
     ): Promise<User> {
         const updatedDoc = await this.docs.findByIdAndUpdate(userId, {
             $pull: { myList: contentId }
-        });
-        const index = updatedDoc.myList.indexOf(contentId)
-        updatedDoc.myList.splice(index,1)
+        },{ runValidators: true, new: true });
         return updatedDoc;
     }
 }

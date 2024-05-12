@@ -5,7 +5,7 @@ import mongoose  from "mongoose";
 abstract class BaseDAO<T> {
     public docs: mongoose.Model<any>;
 
-    private updateOptions: any = { runValidators: true, new: true };
+    public updateOptions: any = { runValidators: true, new: true };
 
     constructor(model: any) {
         this.docs = model;
