@@ -116,6 +116,14 @@ First, it checks Redis to determine whether the content is available. If the con
 
 Therefore, each time the content is read from Redis, its TTL is updated to 15 days. This approach ensures that frequently accessed content remains in Redis, while less frequently accessed content is automatically removed from Redis after 15 days.
 
+## CI
+Github action is used for CI .yml file is inside .github/workflows and runner is self hosted on the same EC2 instance, and the workflow gets triggered manually.
+
+
+## Deployed APIs
+
+insomnia collection with a name `stage_task_api.json` is added in the code with all the working apis
+
 
 ## Deployment
 Code is deployed on aws EC2 instance using nginx web server and app is running using pm2 on public ip -> `http://15.206.164.218/`
